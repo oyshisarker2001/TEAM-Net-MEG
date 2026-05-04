@@ -1,0 +1,2 @@
+subject,session,meg_file,beh_file,event_method,n_events_total,n_trial_events_used,X_shape,y_shape,tmin,tmax,normalized_labels
+sub-02,ses-02,ds007640-download/sub-02/ses-02/meg/sub-02_ses-02_task-HALV_meg.fif,ds007640-download/sub-02/ses-02/beh/sub-02_ses-02_task-HALV_beh.tsv,stim:Stimulus,132,10,"(10, 143, 5121)","(10, 2)",0.0,5.0,True

@@ -1,0 +1,2 @@
+subject,session,meg_file,beh_file,event_method,n_events_total,n_trial_events_used,X_shape,y_shape,tmin,tmax,normalized_labels
+sub-07,ses-03,ds007640-download/sub-07/ses-03/meg/sub-07_ses-03_task-LAHV_meg.fif,ds007640-download/sub-07/ses-03/beh/sub-07_ses-03_task-LAHV_beh.tsv,stim:Stimulus,129,10,"(10, 143, 5121)","(10, 2)",0.0,5.0,True
