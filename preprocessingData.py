@@ -11,6 +11,8 @@ DATASET_ROOT = "ds007640-download"   # change this
 OUTPUT_DIR = "processed_meg_regression"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
+
+
 TMIN = 0.0
 TMAX = 5.0         # change if needed
 PRELOAD = True

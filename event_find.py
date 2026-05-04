@@ -8,6 +8,10 @@ raw = mne.io.read_raw_fif(meg_file, preload=False, verbose=False)
 events = mne.find_events(raw, stim_channel="Stimulus", verbose=False)
 sfreq = raw.info["sfreq"]
 
+
+
+
+
 candidate_ids = [33, 34, 35, 36, 112, 113, 118, 119]
 cand_events = events[np.isin(events[:, 2], candidate_ids)]
 
